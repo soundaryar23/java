@@ -1,0 +1,12 @@
+classs AdharRunner{
+     public static void main(String args[])
+     {
+	 
+	 
+	 AdharCard.createAdhar("Chandana","N",22,"soraba shivamogga ",)
+	 
+	 
+	 }
+
+
+}

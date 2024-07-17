@@ -1,0 +1,43 @@
+class Mixer
+{
+static boolean isConnected=true;
+	static int     currentSpeed  ; 
+      static int maxSpeed  = 3; 
+	public static void onOrOff(){
+		
+		System.out.println("OnOrOff method started");
+		if(isConnected==false){
+			
+		isConnected=true;
+		  System.out.println("Mixer turn on");	  
+
+		}
+		else if(isConnected==true){
+		isConnected=false;
+		System.out.println("Mixer turn off");	  
+
+			
+		}
+			System.out.println("OnOrOff method started");
+
+	
+}
+
+public static void increaseSpeed(){
+				 System.out.println("increaseTemperature() started");
+			if(isConnected == true){	       
+				 if(currentSpeed < maxSpeed){
+					    currentSpeed= currentSpeed+1 ;
+				System.out.println("The current temperature is "+ currentSpeed);		
+				}else{
+						System.out.println("Max Temperature Reached");
+					 } 
+			}else{
+				System.out.println("on the mixer");
+			}
+				 	 System.out.println("increaseTemperature() ended");
+				 return ;
+				 }
+	   
+	
+}

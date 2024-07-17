@@ -1,0 +1,12 @@
+class Acfeatures{
+	
+	
+	public static void features(){
+		System.out.println("features started");
+	  String brand="Samsung";
+	  String color="white";
+	  System.out.println(" brand of AC"+brand);
+	  System.out.println("color of Ac"+color);
+	
+	}
+}

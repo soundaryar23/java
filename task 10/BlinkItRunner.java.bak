@@ -1,0 +1,8 @@
+class BlinkItRunner{
+		public static void main(String food[]){
+			
+		String order=BlinkIt.getOrder
+		double price =  BlinkIt.getOrder(order);
+        System.out.println("Price: " + price);
+		}
+}
