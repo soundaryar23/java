@@ -1,16 +1,35 @@
 class Bill{
-	
-	
-	 int billId;
-	String billIssuedDate;
+	int billId;
+	String billIssueDate;
 	String billDueDate;
 	boolean isBillPaid=false;
+	boolean isLatestBill=true;
 	
-	public void billDetails(){
-		System.out.println("Bill Id is "+billId);
-		System.out.println("bill Issued date is "+billIssuedDate);
-		System.out.println("Bill Due date is "+billDueDate);
-		
+	
+	
+	public   boolean createBill(int billId , String billIssueDate ,String billDueDate , boolean isBillPaid , boolean isLatestBill){
+              
+               boolean isBillCreated = false;
+               if(billId > 0 && billIssueDate != null && billDueDate != null){
+                this.billId = billId;
+                this.billIssueDate = billIssueDate;
+                this.billDueDate = billDueDate;
+                this.isBillPaid = isBillPaid;
+                this.isLatestBill = isLatestBill;
+                isBillCreated = true ;
+               }
+               
+                
+        return isBillCreated ;
+     }
+     
+     
+     public void displayBillInfo(){
+         System.out.println("The Bill Id is "+ this.billId);
+          System.out.println("The Bill Issue Date is "+ this.billIssueDate);
+          System.out.println("The Bill Due Date is "+ this.billDueDate);
+          System.out.println("Is Bill Paid "+ this.isBillPaid);
+          System.out.println("Is Bill Latest "+ this.isLatestBill);
+     }
 	}
 	
-}
