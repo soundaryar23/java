@@ -103,7 +103,7 @@ class GardenRunner{
 	ref14.place="Bengaluru";
 	ref14.id=14;
 	System.out.println("---------------------");
-	ref14.gettingFreshAir();
+	ref14s.gettingFreshAir();
 	
 	Garden ref15=new Garden();
 	ref15.name="Botanical Garden of University of Agricultural Sciences";

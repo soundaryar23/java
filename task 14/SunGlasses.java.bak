@@ -1,9 +1,0 @@
-class SunGlasses{
-    String name;
-    String type;
-    double price;
-public void styling(){
-	
-    System.out.println("sunglass is used for styling");
-}    
-}

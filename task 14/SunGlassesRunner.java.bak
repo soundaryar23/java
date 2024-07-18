@@ -155,7 +155,6 @@ class SunGlassesRunner{
         System.out.println("Price: " + glass14.price);
 
         SunGlasses glass15 = new SunGlasses();
-		glass15.id=15;
         glass15.name = "Bvlgari";
         glass15.type = "elegant";
         glass15.price = 19000.0;
